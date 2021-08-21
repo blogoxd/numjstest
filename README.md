@@ -1,5 +1,5 @@
 # numjstest
-<!DOCTYPE html>
+
 <html>
 <head>
 <title></title>
@@ -30,7 +30,9 @@ const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
 
 function App() {
   return (
+<div>
   <h1>hh</h1>
+</div>
     <ThemeProvider theme={CustomTheme}>
       <StylesProvider jss={jss}>
       
